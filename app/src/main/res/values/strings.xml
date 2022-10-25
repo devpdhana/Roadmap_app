@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Roadmap</string>
+    <string name="c_programing_language">C Programing Language</string>
+    <string name="author_dennis_ritchie">Author : Dennis Ritchie</string>
+    <string name="java_programing">Java Programing</string>
+    <string name="python_programing">Python Programing</string>
+    <string name="block_chain">Block Chain</string>
+    <string name="c_programing">C++ Programing</string>
+    <string name="cyber_security">Cyber Security</string>
+    <string name="author_bjarne_stroustrup">Author : Bjarne Stroustrup</string>
+    <string name="author_james_gosling">Author : James Gosling</string>
+    <string name="author_guido_van_rossum">Author : Guido van Rossum</string>
+    <string name="author_satoshi_nakamoto">Author : Satoshi Nakamoto</string>
+    <string name="author_bob_thomas">Author : Bob Thomas</string>
+    <string name="welocme_to_c_programing_roadmap">Welcome to C Programing Roadmap</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="welcome_to_c_roadmap">Welcome to C++ Roadmap</string>
+    <string name="welcome_to_java_roadmap">Welcome to Java Roadmap</string>
+    <string name="welcome_to_cyber_security_roadmap">Welcome to Cyber Security Roadmap</string>
+    <string name="welcome_to_block_chain_roadmap">Welcome to Block Chain Roadmap</string>
+    <string name="welcome_to_python_roadmap">Welcome to Python Roadmap</string>
+    <string name="roadmap_for_developers">Roadmap for Developers</string>
+</resources>
