@@ -46,6 +46,8 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="@color/yelow"
                 android:id="@+id/C_Card"
                 android:backgroundTint="@color/yelow"
                 app:cardCornerRadius="5dp">
@@ -96,6 +98,8 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:id="@+id/Card_CPlus"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="@color/light_green"
                 android:backgroundTint="@color/light_green"
                 app:cardCornerRadius="5dp">
 
@@ -146,6 +150,8 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:id="@+id/Card_Java"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="@color/blue"
                 android:backgroundTint="@color/blue"
                 app:cardCornerRadius="5dp">
 
@@ -193,6 +199,8 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:id="@+id/Card_Python"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="@color/dark_blue"
                 android:backgroundTint="@color/dark_blue"
                 app:cardCornerRadius="5dp">
 
@@ -239,6 +247,8 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:id="@+id/Card_block"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="@color/pink"
                 android:backgroundTint="@color/pink"
                 app:cardCornerRadius="5dp">
 
@@ -285,6 +295,8 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
                 android:id="@+id/Card_Cybercurity"
+                app:cardElevation="20dp"
+                app:cardBackgroundColor="@color/light_red"
                 android:backgroundTint="@color/light_red"
                 app:cardCornerRadius="5dp">
 
