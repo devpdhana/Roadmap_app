@@ -20,4 +20,13 @@
     <string name="welcome_to_block_chain_roadmap">Welcome to Block Chain Roadmap</string>
     <string name="welcome_to_python_roadmap">Welcome to Python Roadmap</string>
     <string name="roadmap_for_developers">Roadmap for Developers</string>
+
+    <string-array name="Programing_Languages">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>C#</item>
+    </string-array>
 </resources>
