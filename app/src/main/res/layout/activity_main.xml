@@ -82,7 +82,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignBaseline="@+id/imgC"
-                            android:layout_margin="5dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="5dp"
                             android:layout_toEndOf="@+id/imgC"
                             android:text="@string/c_programing_language"
                             android:textColor="@color/white"
@@ -371,11 +374,13 @@
         android:id="@+id/CourseLayout"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ScrollView"
+        android:gravity="center"
         android:visibility="gone">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/coming_soon"
+            android:id="@+id/txtCourse"
             android:textSize="28sp"/>
     </LinearLayout>
 

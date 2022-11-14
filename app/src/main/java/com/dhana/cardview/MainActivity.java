@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         RoadMap = findViewById(R.id.RoadmapLayoutMain);
         CourseLay = findViewById(R.id.CourseLayout);
 
+        textView = findViewById(R.id.txtCourse);
+
         tabLayout.addTab(tabLayout.newTab().setText("ROADMAPS"));
         tabLayout.addTab(tabLayout.newTab().setText("COURSES"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -116,10 +118,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView.setText("WELCOME");
+            }
+        });
+
     }
 
     private void setVisible(LinearLayout roadMap, LinearLayout courseLay) {
         roadMap.setVisibility(RoadMap.VISIBLE);
         courseLay.setVisibility(CourseLay.GONE);
     }
+
+    public void Course(){
+        Intent intent = new Intent(this,Cyber_Security.class);
+        startActivity(intent);
+    }
+    //
 }
